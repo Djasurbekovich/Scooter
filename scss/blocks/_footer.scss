@@ -1,0 +1,85 @@
+.footer{
+    background-color: var(--dark-navy);
+    background-image: url(/imgs/Group\ 22.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 102px 165px;
+
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title{
+        width: 415px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+    }
+    &__right{
+        display: flex;
+        gap: 18px;
+    }
+    &__link:hover{
+        box-shadow: 1px 1px 10px 01px var(--light-grey);
+        border-radius: 4px;
+    }
+    &__link:active{
+        box-shadow: 1px 1px 10px 01px var(--dim-grey);
+    }
+}
+.footer-end{
+    background: #333A44;
+    padding: 18px 165px 16px;
+
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 35px 0 32px;
+    }
+    &__logo{
+        display: flex;
+    }
+    &__list{
+        display: flex;
+        margin-left: 29px;
+        margin-bottom: 0;
+    }
+    &__item + &__item{
+        margin-left: 32px;
+    }
+    &__link{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: var(--dim-grey);
+        text-decoration: none;
+    }
+    &__link:hover{
+        color: var(--light-grey);
+    }
+    &__link:active{
+        color: var(--dark-navy);
+    }
+    &__icons a{
+        font-size: 30px;
+        text-decoration: none;
+        color: var(--yellow);
+    }
+    &__icons a + a{
+        margin-left: 18px;
+    }
+    &__icons a:hover{
+        color: var(--light-yellow);
+    }
+    &__icons a:active{
+        color: var(--dark-navy);
+    }
+}

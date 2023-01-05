@@ -1,0 +1,112 @@
+.header__nav{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 22px 165px 21px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__menu{
+        font-size: 20px;
+        color: var(--yellow);
+        border: none;
+        background: none;
+        display: none;
+    }
+    &__box{
+        display: flex;
+    }
+    &__list{
+        display: flex;
+        margin-left: 29px;
+        margin-bottom: 0;
+    }
+    &__item + &__item{
+        margin-left: 32px;
+    }
+    &__link{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: var(--dim-grey);
+        text-decoration: none;
+    }
+    &__link:hover{
+        color: var(--dark-navy);
+    }
+    &__link:active{
+        color: var(--light-grey);
+    }
+    &__btn{
+        width: 180px;
+        height: 53px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        background-color: var(--yellow);
+        border: none;
+    }
+    &__btn:hover{
+        border: var(--border-btn) var(--yellow);
+        color: var(--yellow);
+        background: none;
+    }
+    &__btn:active{
+        box-shadow: 1px 1px 10px 01px var(--yellow);
+    }
+}
+.hero{
+    background-image: url(/imgs/Group\ 42.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 242px 192px;
+    margin-bottom: 160px;
+
+    &__title{
+        font-family: 'Space Mono';
+        font-style: normal;
+        width: 500px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+    }
+    &__text{
+        width: 405px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin: 40px 0 40px 95px;
+    }
+    &__btn{
+        width: 180px;
+        height: 53px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        background-color: var(--yellow);
+        border: none;
+        margin-left: 95px;
+    }
+    &__btn:hover{
+        border: var(--border-btn) var(--yellow);
+        color: var(--yellow);
+        background: none;
+    }
+    &__btn:active{
+        box-shadow: 1px 1px 10px 01px var(--yellow);
+    }
+}

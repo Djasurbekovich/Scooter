@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow: #FCB72B;
+    --dark-navy: #495567;
+    --dim-grey: #939CAA;
+    --light-grey: #E5ECF4;
+    --snow: #F2F5F9;
+    --light-yellow: #FFF4DF;
+    --border-btn: 3px solid;
+}
+
+body{
+    font-family: 'Space Mono';
+    font-style: normal;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+
+p{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+}

@@ -1,0 +1,92 @@
+.section{
+    background-image: url(/imgs/Path\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 45px;
+    margin-bottom: 200px;
+
+    &__list{
+        display: flex;
+        justify-content: center;
+    }
+    &__item + &__item{
+        margin-left: 30px;
+    }
+    img:hover{
+        box-shadow: 1px 1px 10px 01px var(--yellow);
+        border-radius: 50%;
+    }
+    img:active{
+        box-shadow: 1px 1px 10px 01px var(--light-grey);
+    }
+    &__title{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: var(--dark-navy);
+        margin: 40px 0 27px;
+    }
+    &__text{
+        width: 350px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: var(--dim-grey);
+    }
+}
+.section-2{
+    margin-bottom: 40px;
+
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 160px;
+    }
+    &__box:nth-child(even){
+        flex-direction: row-reverse;
+    }
+    &__left{
+        margin: 0 165px;
+    }
+    &__title{
+        width: 445px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: var(--dark-navy);
+    }
+    &__text{
+        width: 445px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: var(--dim-grey);
+        margin: 24px 0 40px;
+    }
+    &__btn{
+        width: 180px;
+        height: 53px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        background-color: var(--yellow);
+        border: none;
+    }
+    &__btn:hover{
+        border: var(--border-btn) var(--yellow);
+        color: var(--yellow);
+        background: none;
+    }
+    &__btn:active{
+        box-shadow: 1px 1px 10px 01px var(--yellow);
+    }
+}

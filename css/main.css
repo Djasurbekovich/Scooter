@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+.header__nav {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 22px 165px 21px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__menu {
+  font-size: 20px;
+  color: var(--yellow);
+  border: none;
+  background: none;
+  display: none;
+}
+.nav__box {
+  display: flex;
+}
+.nav__list {
+  display: flex;
+  margin-left: 29px;
+  margin-bottom: 0;
+}
+.nav__item + .nav__item {
+  margin-left: 32px;
+}
+.nav__link {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--dim-grey);
+  text-decoration: none;
+}
+.nav__link:hover {
+  color: var(--dark-navy);
+}
+.nav__link:active {
+  color: var(--light-grey);
+}
+.nav__btn {
+  width: 180px;
+  height: 53px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background-color: var(--yellow);
+  border: none;
+}
+.nav__btn:hover {
+  border: var(--border-btn) var(--yellow);
+  color: var(--yellow);
+  background: none;
+}
+.nav__btn:active {
+  box-shadow: 1px 1px 10px 1px var(--yellow);
+}
+
+.hero {
+  background-image: url(/imgs/Group\ 42.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 242px 192px;
+  margin-bottom: 160px;
+}
+.hero__title {
+  font-family: "Space Mono";
+  font-style: normal;
+  width: 500px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+.hero__text {
+  width: 405px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 40px 0 40px 95px;
+}
+.hero__btn {
+  width: 180px;
+  height: 53px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background-color: var(--yellow);
+  border: none;
+  margin-left: 95px;
+}
+.hero__btn:hover {
+  border: var(--border-btn) var(--yellow);
+  color: var(--yellow);
+  background: none;
+}
+.hero__btn:active {
+  box-shadow: 1px 1px 10px 1px var(--yellow);
+}
+
+.section {
+  background-image: url(/imgs/Path\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 45px;
+  margin-bottom: 200px;
+}
+.section__list {
+  display: flex;
+  justify-content: center;
+}
+.section__item + .section__item {
+  margin-left: 30px;
+}
+.section img:hover {
+  box-shadow: 1px 1px 10px 1px var(--yellow);
+  border-radius: 50%;
+}
+.section img:active {
+  box-shadow: 1px 1px 10px 1px var(--light-grey);
+}
+.section__title {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: var(--dark-navy);
+  margin: 40px 0 27px;
+}
+.section__text {
+  width: 350px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--dim-grey);
+}
+
+.section-2 {
+  margin-bottom: 40px;
+}
+.section-2__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.section-2__box:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.section-2__left {
+  margin: 0 165px;
+}
+.section-2__title {
+  width: 445px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: var(--dark-navy);
+}
+.section-2__text {
+  width: 445px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--dim-grey);
+  margin: 24px 0 40px;
+}
+.section-2__btn {
+  width: 180px;
+  height: 53px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background-color: var(--yellow);
+  border: none;
+}
+.section-2__btn:hover {
+  border: var(--border-btn) var(--yellow);
+  color: var(--yellow);
+  background: none;
+}
+.section-2__btn:active {
+  box-shadow: 1px 1px 10px 1px var(--yellow);
+}
+
+.footer {
+  background-color: var(--dark-navy);
+  background-image: url(/imgs/Group\ 22.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 102px 165px;
+}
+.footer__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__title {
+  width: 415px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+.footer__right {
+  display: flex;
+  gap: 18px;
+}
+.footer__link:hover {
+  box-shadow: 1px 1px 10px 1px var(--light-grey);
+  border-radius: 4px;
+}
+.footer__link:active {
+  box-shadow: 1px 1px 10px 1px var(--dim-grey);
+}
+
+.footer-end {
+  background: #333A44;
+  padding: 18px 165px 16px;
+}
+.footer-end__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 0 32px;
+}
+.footer-end__logo {
+  display: flex;
+}
+.footer-end__list {
+  display: flex;
+  margin-left: 29px;
+  margin-bottom: 0;
+}
+.footer-end__item + .footer-end__item {
+  margin-left: 32px;
+}
+.footer-end__link {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--dim-grey);
+  text-decoration: none;
+}
+.footer-end__link:hover {
+  color: var(--light-grey);
+}
+.footer-end__link:active {
+  color: var(--dark-navy);
+}
+.footer-end__icons a {
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--yellow);
+}
+.footer-end__icons a + a {
+  margin-left: 18px;
+}
+.footer-end__icons a:hover {
+  color: var(--light-yellow);
+}
+.footer-end__icons a:active {
+  color: var(--dark-navy);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --yellow: #FCB72B;
+  --dark-navy: #495567;
+  --dim-grey: #939CAA;
+  --light-grey: #E5ECF4;
+  --snow: #F2F5F9;
+  --light-yellow: #FFF4DF;
+  --border-btn: 3px solid;
+}
+
+body {
+  font-family: "Space Mono";
+  font-style: normal;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+}
+
+/*# sourceMappingURL=main.css.map */
